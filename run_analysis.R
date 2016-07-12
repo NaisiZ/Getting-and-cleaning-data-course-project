@@ -3,7 +3,6 @@ setwd("E:/coursera/note")
 #-------------------------------------------------------------------------------
 # 1. Merge the training and the test sets to create one data set.
 
-## step 1: download zip file from website
 if(!file.exists("./data")) dir.create("./data")
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileUrl, destfile = "./data/projectData_getCleanData.zip")
